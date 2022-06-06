@@ -1,0 +1,22 @@
+{
+  "name": "forkify-app",
+  "version": "1.0.0",
+  "description": "website that displays different types of recipes using a search criteria and using the Forkify API",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Pratyaksh Singh",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.22.8",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0"
+  }
+}
